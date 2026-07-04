@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/laughingbackground.jpg");
+    height: 100%;
+    width: 100%;
+    padding: 100px 20px;
+}
+
+
+#container {
+    background: linear-gradient(to bottom, rgb(255, 236, 62), rgba(255, 255, 255, 0.403));
+
+    width: min(600px, 95vw);
+    height: auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+
+h1 {
+    margin: 20px;
+    text-align: center;
+    text-shadow: 2px 1px rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main {
+    width: 90%;
+    min-height: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    padding: 10px;
+    margin: 20px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.main select {
+    width: 170px;
+    padding: 6px;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+    background-color: rgb(37, 36, 36);
+    color: white;
+}
+
+.sub {
+    border: 2px;
+}
+
+.sub-and-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+
+#jokediv {
+    width: 90%;
+    min-height: 130px;
+    margin: 20px;
+    padding: 10px;
+
+    background-color: white;
+
+    border-radius: 5px;
+    border: 5px inset black;
+
+    text-align: left;
+}
+
+#jokediv div {
+    width: 100%;
+
+    padding: 10px;
+
+    font-family: Impact, Haettenschweiler,
+        'Arial Narrow Bold', sans-serif;
+
+    line-height: 1.5;
+
+    overflow-wrap: anywhere;
+    word-break: break-word;
+}
+
+
+button {
+    border: none;
+    background-color: transparent;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+button>img {
+    width: 30px;
+    border-radius: 50%;
+    transition: 0.3s ease;
+}
+
+button>img:hover {
+    transform: scale(1.1) rotate(8deg);
+    background: #ea5910;
+}
+
+@media(max-width:768px) {
+
+    body {
+        padding: 15px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .main {
+        width: 95%;
+    }
+
+    #jokediv {
+        width: 95%;
+    }
+}
+
+@media(max-width:480px) {
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .main {
+
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .sub,
+    .sub-and-button {
+
+        width: 100%;
+    }
+
+    .sub p {
+
+        text-align: center;
+    }
+
+    .sub-and-button {
+
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .main select {
+
+        width: 100%;
+    }
+
+    button {
+
+        margin-top: 8px;
+    }
+
+    button img {
+
+        width: 30px;
+    }
+
+    #jokediv div {
+
+        font-size: 15px;
+    }
+}
