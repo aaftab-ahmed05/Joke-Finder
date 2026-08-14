@@ -1,16 +1,79 @@
-# React + Vite
+# Joke Finder 😂
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Joke Finder web application** built with React.js and JavaScript. The application fetches jokes from a public API and dynamically displays them to the user.
 
-Currently, two official plugins are available:
+## 📸 Screenshot
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Joke Finder Screenshot](./src/assets/screenshot.png)
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Fetches jokes from a public API
+* Dynamically displays joke content
+* Simple and user-friendly interface
+* Responsive design for different screen sizes
+* Built using React components and API integration
 
-## Expanding the ESLint configuration
+## 🛠️ Technologies Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* **React.js**
+* **JavaScript**
+* **HTML5**
+* **CSS3**
+* **REST API**
+* **Vite**
+
+## 📂 Project Structure
+
+```text
+Joke-Finder/
+├── public/
+├── src/
+│   ├── assets/
+│   │   └── screenshot.png
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── ...
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/aaftab-ahmed05/Joke-Finder.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd Joke-Finder
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+The application will then be available through the local development URL provided by Vite.
+
+## 📌 Project Purpose
+
+This project was developed to practice **React.js, API integration, component-based development, and responsive web design**.
+
+## 👨‍💻 Author
+
+**Aaftab Ahmed**
+
+[GitHub](https://github.com/aaftab-ahmed05) • [Joke Finder Repository](https://github.com/aaftab-ahmed05/Joke-Finder)
