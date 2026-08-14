@@ -6,8 +6,8 @@ A simple and responsive **Joke Finder web application** built with React.js and 
 
 ## 📸 Screenshot
 
-![Joke Finder Screenshot](<img width="1845" height="855" alt="image" src="https://github.com/user-attachments/assets/8b4ffc3f-e59b-443c-b929-a422f43a76ac" />
-)
+<img width="1845" height="855" alt="Screenshot 2026-08-14 223926" src="https://github.com/user-attachments/assets/b50d7996-fb8e-43e1-882b-dfd5fe5012bd" />
+
 
 ## 🚀 Features
 
