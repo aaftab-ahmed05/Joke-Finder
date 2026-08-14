@@ -2,7 +2,7 @@
 
 A simple and responsive **Joke Finder web application** built with React.js and JavaScript. The application fetches jokes from a public API and dynamically displays them to the user.
 
-## [Visit](https://aaftab-ahmed05.github.io/Joke-Finder/)
+## Visit : https://aaftab-ahmed05.github.io/Joke-Finder/
 
 ## 📸 Screenshot
 
